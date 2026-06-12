@@ -2,7 +2,7 @@ services:
   - type: web
     name: crud-ci4-postgres
     runtime: php
-    repo: https://github.com/username_github_kamu/nama_repo_kamu
+    repo: https://github.com/leam-halim/TGS-10.git
     plan: free
     region: singapore
     envVars:
