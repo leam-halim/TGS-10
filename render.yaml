@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: crud-ci4-postgres
+    runtime: php
+    repo: https://github.com/username_github_kamu/nama_repo_kamu
+    plan: free
+    region: singapore
+    envVars:
+      - key: CI_ENVIRONMENT
+        value: production
